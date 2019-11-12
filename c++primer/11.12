@@ -1,0 +1,17 @@
+2019.11.12
+流：随着时间的推移，字符是顺序生成或消耗的。
+标准输入输出对象
+  1.cin标准输入
+  2.cout标准输出
+  3.cerr输出错误和错误信息
+  4.clog输出程序运行时的一般性信息
+读取数量不定的输入数据
+#include<iostream>
+int main()
+{
+  int sum=0,value=0;
+  while(std::cin>>value)
+    sum+=value;
+  std::cout<<"sum is:"<<sum<<std::endl;
+  return 0;
+}
